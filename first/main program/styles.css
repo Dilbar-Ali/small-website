@@ -1,0 +1,75 @@
+.navibars{
+    text-align: center;
+    /* background-color: rgb(116, 248, 220); */
+    height: 40px;
+
+
+}
+.navibars a{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 35px;
+    background-color: rgb(137, 27, 240);
+    margin-top: 5px;
+    color: white;
+    padding: 6px 20px 4px 20px ;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    
+}
+.navibars a:hover{
+    padding: 8px 24px 5px 24px ;
+    background-color: aqua;
+    color: darkmagenta;
+}
+.whole{
+    background-image: url(./portfolio-img6.jpg);
+    background-size: cover;
+}
+h1{
+    color: rgb(240, 6, 115);
+    margin-left: 60%;
+    font-weight: 900;
+    font-style: oblique;
+    font-size: 40px;
+}
+h1:hover{
+    color: rgb(0, 243, 0);
+    padding: 5px;
+}
+.body input{
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    width: 20%;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    /* background-image: url(./m4m6keref09b4v7gq5sl.jpg); */
+    margin-left: 65%;
+
+}
+.body input:hover{
+    color: black;
+    padding: 20px;
+    
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+.body button {
+    padding: 14px ;
+    color: white;
+    background-color: red;
+    border-radius: 1rem;
+    width: 9rem;
+    margin-left: 1.5%;
+    margin: 40px;
+    margin-left: 66%;
+
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+.body button:hover{
+    padding: 15px;
+    background-color: aqua;
+    color: black;
+}
